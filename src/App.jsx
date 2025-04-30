@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className='bg-black text-white h-fit w-fit ' 
     style={{background : 'url("/images/bggif001.gif")'}}   >
-      
+      <h1 className='text-black'>hellow</h1>
       <Navbar home={mainhomeref} event={maineventref} schedule={mainscheduleref} 
       register={mainregisterref} contact={maincontactrref} /> <br /> 
       <Home homeref={mainhomeref}/>

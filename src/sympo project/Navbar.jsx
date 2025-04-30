@@ -42,13 +42,13 @@ const contactscroll = (e)=>{
     <div className=' flex justify-center items-center gap-4 
        text-black p-4 fixed z-50 bg-black w-full opacity-90 rounded-xl'>
      {/* style={{background : 'url("")'}} */} 
-        <img src="/public/images/psvlogo.jpg" width='70px'
+        <img src="/images/psvlogo.jpg" width='70px'
                     className='rounded-full  '/>
 
         <div className=' font-extrabold'>
         <h1 className=' text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 
             font-serif text-shadow-glow ' >
-            NEURAVERSE'2K25
+            NEURAVERSE'2k25
         </h1>
         <p className=' text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  mask-radial-from-neutral-100  '  >convert your ideas into action.</p>
         </div>
