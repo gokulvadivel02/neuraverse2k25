@@ -73,7 +73,7 @@ const Home = ({homeref}) => {
         <div  className='  flex flex-col text-center md:flex-col  mt-8 border-2 p-8 rounded-2xl
            bg-gray-800 opacity-90'>
         <h1 className= 'mt-4 text-cyan-500 font-extrabold text-2xl drop-shadow-[0_0_20px_rgb(34,211,238)]'>Poster</h1>
-        <img src="poster.jpg" width={210}  alt="poster" className='border-2 p-2 rounded-lg rotate-90 m-auto' />
+        <img src="/images/poster.jpg" width={210}  alt="poster" className='border-2 p-2 rounded-lg rotate-90 m-auto' />
         <button className='bg-fuchsia-500  text-black border-solid border-4 rounded-lg w-30 m-auto font-extrabold p-1'><a href="poster.jpg" download='poster.jpg'>Download</a></button>
         </div>
 

@@ -70,7 +70,7 @@ const contactscroll = (e)=>{
           </nav>        
   )}
 
-    <button className=' md:hidden  rounded-lg p-1 text-white  ' onClick={opennav}><img src="menu.jpg" width={50} /></button>
+    <button className=' md:hidden  rounded-lg p-1 text-white  ' onClick={opennav}><img src="/images/menu.jpg" width={50} /></button>
     </div>
     
   )

@@ -1,19 +1,19 @@
 import React, { useRef } from 'react'
 
 const categories = [
-  { image: 'ppt.jpg', label: 'Paper Presentation' },
-  { image: 'quiz.jpg', label: 'Quiz' },
-  { image: 'ps.jpg', label: 'Problem Solving' },
-  { image: 'debug.jpg', label: 'Debugging' },
-  { image: 'fd.jpg', label: 'Web Dev using AI' },
+  { image: '/images/ppt.jpg', label: 'Paper Presentation' },
+  { image: '/images/quiz.jpg', label: 'Quiz' },
+  { image: '/images/ps.jpg', label: 'Problem Solving' },
+  { image: '/images/debug.jpg', label: 'Debugging' },
+  { image: '/images/fd.jpg', label: 'Web Dev using AI' },
 ];
 
 const nontech = [
-  {image : 'code scramble.jpg',label:'Code scramble' },
-  {image : 'logo.jpg' , label:'Logo identifier'},
-  {image : 'photography.jpg', label : 'Photography'},
-  {image : 'fine me.jpg', label : 'Find me.'},
-  {image : 'esports.jpg', label : 'Esports'},
+  {image : '/images/code scramble.jpg',label:'Code scramble' },
+  {image : '/images/logo.jpg' , label:'Logo identifier'},
+  {image : '/images/photography.jpg', label : 'Photography'},
+  {image : '/images/fine me.jpg', label : 'Find me.'},
+  {image : '/images/esports.jpg', label : 'Esports'},
 ]
 
 const Events = ({eventref}) => {
