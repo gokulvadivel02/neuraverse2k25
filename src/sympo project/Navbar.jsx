@@ -42,7 +42,7 @@ const contactscroll = (e)=>{
     <div className=' flex justify-center items-center gap-4 
        text-black p-4 fixed z-50 bg-black w-full opacity-90 rounded-xl'>
      {/* style={{background : 'url("")'}} */} 
-        <img src="/images/psvlogo.jpg" width='70px'
+        <img src="/public/images/psvlogo.jpg" width='70px'
                     className='rounded-full  '/>
 
         <div className=' font-extrabold'>
