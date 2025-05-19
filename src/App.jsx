@@ -1,10 +1,12 @@
 import React from 'react'
-import Loginpage from './components/Loginpage'
+// import Calculator from './components/Calculator'
+import Cal from './components/Cal'
 
 const App = () => {
   return (
     <div>
-      <Loginpage/>
+      {/* <Calculator/> */}
+      <Cal/>
     </div>
   )
 }
